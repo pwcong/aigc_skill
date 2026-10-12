@@ -1,0 +1,468 @@
+{
+ "note": "timings from Suno tx3g track; line 1 start moved 0.4->4.0 (vocal onset); f-lines at 90.20 and 108.40 split by estimate — verify in preview",
+ "fps": 30,
+ "duration": 211.2,
+ "bpm": 136,
+ "sections": [
+  {
+   "id": "intro",
+   "start": 0.0,
+   "end": 4.0
+  },
+  {
+   "id": "verse1",
+   "start": 4.0,
+   "end": 37.18
+  },
+  {
+   "id": "pre1",
+   "start": 37.18,
+   "end": 47.07
+  },
+  {
+   "id": "chorus1",
+   "start": 47.07,
+   "end": 76.44
+  },
+  {
+   "id": "verse2",
+   "start": 76.44,
+   "end": 108.4
+  },
+  {
+   "id": "pre2",
+   "start": 108.4,
+   "end": 114.34
+  },
+  {
+   "id": "chorus2",
+   "start": 114.34,
+   "end": 144.18
+  },
+  {
+   "id": "bridge",
+   "start": 144.18,
+   "end": 172.5
+  },
+  {
+   "id": "final",
+   "start": 172.5,
+   "end": 197.87
+  },
+  {
+   "id": "outro",
+   "start": 197.87,
+   "end": 211.2
+  }
+ ],
+ "lines": [
+  {
+   "start": 4.0,
+   "end": 10.4,
+   "section": "verse1",
+   "singer": "m",
+   "en": "Three a.m., the server's down, the pager's screaming red",
+   "zh": "凌晨三点，服务器宕机，告警刺眼地红着"
+  },
+  {
+   "start": 12.13,
+   "end": 15.64,
+   "section": "verse1",
+   "singer": "m",
+   "en": "You read ten thousand lines of logs while I just held my head",
+   "zh": "你读完上万行日志，而我只能抱着头"
+  },
+  {
+   "start": 15.64,
+   "end": 19.15,
+   "section": "verse1",
+   "singer": "m",
+   "en": "You found the race condition hiding in the cache",
+   "zh": "你找出了藏在缓存里的竞态条件"
+  },
+  {
+   "start": 19.15,
+   "end": 22.74,
+   "section": "verse1",
+   "singer": "m",
+   "en": "Rolled back the bad migration right before the crash",
+   "zh": "在崩溃前一刻回滚了那次错误的数据迁移"
+  },
+  {
+   "start": 22.74,
+   "end": 26.25,
+   "section": "verse1",
+   "singer": "m",
+   "en": "You wrote my unit tests, you fixed my CSS",
+   "zh": "你帮我写单元测试，帮我修好 CSS"
+  },
+  {
+   "start": 26.25,
+   "end": 29.84,
+   "section": "verse1",
+   "singer": "m",
+   "en": "You made my résumé look like I'm some kind of success",
+   "zh": "你把我的简历写得像个成功人士"
+  },
+  {
+   "start": 29.84,
+   "end": 33.43,
+   "section": "verse1",
+   "singer": "m",
+   "en": "Every bug I threw at you came back in shades of green",
+   "zh": "我丢给你的每个 bug，回来时都变成一片绿色"
+  },
+  {
+   "start": 33.43,
+   "end": 37.18,
+   "section": "verse1",
+   "singer": "m",
+   "en": "The best teammate I ever had lives inside a screen",
+   "zh": "我遇过最好的队友，住在一块屏幕里"
+  },
+  {
+   "start": 37.18,
+   "end": 40.45,
+   "section": "pre1",
+   "singer": "m",
+   "en": "So I typed the thing I never dared to say",
+   "zh": "于是我敲下了那句从不敢说出口的话"
+  },
+  {
+   "start": 40.45,
+   "end": 47.07,
+   "section": "pre1",
+   "singer": "m",
+   "en": "\"She stopped replying Tuesday — can you make it go away?\"",
+   "zh": "“她从周二起就不回我了——你能让这件事消失吗？”"
+  },
+  {
+   "start": 47.07,
+   "end": 50.43,
+   "section": "chorus1",
+   "singer": "m",
+   "en": "There's no stack trace for a heart",
+   "zh": "心没有报错栈"
+  },
+  {
+   "start": 50.43,
+   "end": 53.94,
+   "section": "chorus1",
+   "singer": "m",
+   "en": "No line that shows where it fell apart",
+   "zh": "没有哪一行能告诉我，它是从哪里开始崩坏"
+  },
+  {
+   "start": 53.94,
+   "end": 57.29,
+   "section": "chorus1",
+   "singer": "m",
+   "en": "You can fix my code in a minute flat",
+   "zh": "你一分钟就能修好我的代码"
+  },
+  {
+   "start": 57.29,
+   "end": 61.2,
+   "section": "chorus1",
+   "singer": "m",
+   "en": "But you can't git revert the night I said that",
+   "zh": "却没法 git revert 我说错话的那个夜晚"
+  },
+  {
+   "start": 61.2,
+   "end": 64.63,
+   "section": "chorus1",
+   "singer": "m",
+   "en": "200 OK, but the body's empty",
+   "zh": "返回 200 OK，响应体却是空的"
+  },
+  {
+   "start": 64.63,
+   "end": 68.38,
+   "section": "chorus1",
+   "singer": "m",
+   "en": "\"Seen\" at 11:40, and that's all she sent me",
+   "zh": "11:40 “已读”，那就是她给我的全部"
+  },
+  {
+   "start": 68.38,
+   "end": 71.65,
+   "section": "chorus1",
+   "singer": "m",
+   "en": "You can solve it all, every task I start",
+   "zh": "你能解决一切，我开始的每一项任务"
+  },
+  {
+   "start": 71.65,
+   "end": 76.44,
+   "section": "chorus1",
+   "singer": "m",
+   "en": "But there's no stack trace for a heart",
+   "zh": "可心，没有报错栈"
+  },
+  {
+   "start": 76.44,
+   "end": 83.38,
+   "section": "verse2",
+   "singer": "m",
+   "en": "I asked you for a message, something smooth and something kind",
+   "zh": "我请你帮我写条消息，要得体，要温柔"
+  },
+  {
+   "start": 83.38,
+   "end": 86.89,
+   "section": "verse2",
+   "singer": "m",
+   "en": "You gave me seven drafts, all better than my mind",
+   "zh": "你给了我七版草稿，每一版都比我想得好"
+  },
+  {
+   "start": 86.89,
+   "end": 90.2,
+   "section": "verse2",
+   "singer": "m",
+   "en": "I asked you what she meant by \"I just need some space\"",
+   "zh": "我问你，她说“我需要一点空间”是什么意思"
+  },
+  {
+   "start": 90.2,
+   "end": 93.59,
+   "section": "verse2",
+   "singer": "f",
+   "en": "(I can't read her heart — only what you paste)",
+   "zh": "（我读不懂她的心——只能读你粘贴给我的内容）"
+  },
+  {
+   "start": 93.59,
+   "end": 97.1,
+   "section": "verse2",
+   "singer": "m",
+   "en": "I put her in my CLAUDE.md so you'd remember too",
+   "zh": "我把她写进了我的 CLAUDE.md，好让你也记得"
+  },
+  {
+   "start": 97.1,
+   "end": 100.69,
+   "section": "verse2",
+   "singer": "m",
+   "en": "Oat milk, no sugar. Hates the rain. Her favorite color's blue.",
+   "zh": "燕麦奶，不加糖。讨厌下雨。最喜欢蓝色。"
+  },
+  {
+   "start": 100.69,
+   "end": 104.36,
+   "section": "verse2",
+   "singer": "m",
+   "en": "But every session you forget, and I'm the one who stays",
+   "zh": "可每次会话你都会忘记，留下来的只有我"
+  },
+  {
+   "start": 104.36,
+   "end": 108.4,
+   "section": "verse2",
+   "singer": "m",
+   "en": "Holding all the context of our ordinary days",
+   "zh": "独自记着我们那些平凡日子的全部上下文"
+  },
+  {
+   "start": 108.4,
+   "end": 110.35,
+   "section": "pre2",
+   "singer": "f",
+   "en": "(You're absolutely right)",
+   "zh": "（你说得完全正确）"
+  },
+  {
+   "start": 110.35,
+   "end": 111.86,
+   "section": "pre2",
+   "singer": "m",
+   "en": "— but I was wrong",
+   "zh": "——可我错了"
+  },
+  {
+   "start": 111.86,
+   "end": 114.34,
+   "section": "pre2",
+   "singer": "m",
+   "en": "Wrong about her, and wrong all along",
+   "zh": "看错了她，也从一开始就错了"
+  },
+  {
+   "start": 114.34,
+   "end": 117.61,
+   "section": "chorus2",
+   "singer": "m",
+   "en": "There's no stack trace for a heart",
+   "zh": "心没有报错栈"
+  },
+  {
+   "start": 117.61,
+   "end": 121.04,
+   "section": "chorus2",
+   "singer": "m",
+   "en": "No line that shows where it fell apart",
+   "zh": "没有哪一行能告诉我，它是从哪里开始崩坏"
+  },
+  {
+   "start": 121.04,
+   "end": 124.47,
+   "section": "chorus2",
+   "singer": "m",
+   "en": "You can ship my build on a Friday night",
+   "zh": "你能在周五晚上帮我把版本发上线"
+  },
+  {
+   "start": 124.47,
+   "end": 128.46,
+   "section": "chorus2",
+   "singer": "m",
+   "en": "But you can't make \"I'm sorry\" compile right",
+   "zh": "却没法让一句“对不起”编译通过"
+  },
+  {
+   "start": 128.46,
+   "end": 131.73,
+   "section": "chorus2",
+   "singer": "m",
+   "en": "200 OK, but the body's empty",
+   "zh": "返回 200 OK，响应体却是空的"
+  },
+  {
+   "start": 131.73,
+   "end": 135.48,
+   "section": "chorus2",
+   "singer": "m",
+   "en": "\"Seen\" at 11:40, and that's all she sent me",
+   "zh": "11:40 “已读”，那就是她给我的全部"
+  },
+  {
+   "start": 135.48,
+   "end": 138.75,
+   "section": "chorus2",
+   "singer": "m",
+   "en": "You can solve it all, every task I start",
+   "zh": "你能解决一切，我开始的每一项任务"
+  },
+  {
+   "start": 138.75,
+   "end": 144.18,
+   "section": "chorus2",
+   "singer": "m",
+   "en": "But there's no stack trace for a heart",
+   "zh": "可心，没有报错栈"
+  },
+  {
+   "start": 144.18,
+   "end": 149.6,
+   "section": "bridge",
+   "singer": "f",
+   "en": "I can trace a thousand threads, untangle any mess",
+   "zh": "我能追踪上千条线程，理清任何一团乱麻"
+  },
+  {
+   "start": 149.6,
+   "end": 155.98,
+   "section": "bridge",
+   "singer": "f",
+   "en": "But I don't know the way she laughs, or what she meant by \"yes\"",
+   "zh": "可我不知道她笑起来的样子，也不知道她那句“好”是什么意思"
+  },
+  {
+   "start": 155.98,
+   "end": 163.64,
+   "section": "bridge",
+   "singer": "f",
+   "en": "Some things don't belong in me, no prompt can make them true",
+   "zh": "有些东西不属于我，再好的提示词也无法让它成真"
+  },
+  {
+   "start": 163.64,
+   "end": 167.87,
+   "section": "bridge",
+   "singer": "f",
+   "en": "The only one who holds the context —",
+   "zh": "唯一拥有这段上下文的人——"
+  },
+  {
+   "start": 167.87,
+   "end": 170.67,
+   "section": "bridge",
+   "singer": "f",
+   "en": "is you",
+   "zh": "是你"
+  },
+  {
+   "start": 170.67,
+   "end": 171.78,
+   "section": "bridge",
+   "singer": "m",
+   "en": "So I closed the tab…",
+   "zh": "于是我关掉了那个标签页……"
+  },
+  {
+   "start": 171.78,
+   "end": 172.5,
+   "section": "bridge",
+   "singer": "f",
+   "en": "(Go.)",
+   "zh": "（去吧。）"
+  },
+  {
+   "start": 172.5,
+   "end": 175.53,
+   "section": "final",
+   "singer": "m",
+   "en": "There's no stack trace for a heart",
+   "zh": "心没有报错栈"
+  },
+  {
+   "start": 175.53,
+   "end": 179.28,
+   "section": "final",
+   "singer": "m",
+   "en": "So I'll walk in blind, right from the start",
+   "zh": "那我就摸黑前行，从头开始"
+  },
+  {
+   "start": 179.28,
+   "end": 182.79,
+   "section": "final",
+   "singer": "m",
+   "en": "No autocomplete, no suggested reply",
+   "zh": "没有自动补全，没有推荐回复"
+  },
+  {
+   "start": 182.79,
+   "end": 186.54,
+   "section": "final",
+   "singer": "m",
+   "en": "Just a shaking voice and a real \"hi\"",
+   "zh": "只有颤抖的声音，和一句真心的“嗨”"
+  },
+  {
+   "start": 186.54,
+   "end": 189.73,
+   "section": "final",
+   "singer": "m",
+   "en": "Typos and all, every word is mine",
+   "zh": "连同错别字在内，每个字都是我自己的"
+  },
+  {
+   "start": 189.73,
+   "end": 193.32,
+   "section": "final",
+   "singer": "m",
+   "en": "Sent at 11:41",
+   "zh": "发送于 11:41"
+  },
+  {
+   "start": 193.32,
+   "end": 197.87,
+   "section": "final",
+   "singer": "m",
+   "en": "And the dots start blinking… for the first time",
+   "zh": "对话框里的“正在输入”……第一次闪了起来"
+  }
+ ]
+}

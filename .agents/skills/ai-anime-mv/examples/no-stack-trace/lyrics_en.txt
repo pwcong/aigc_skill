@@ -1,0 +1,79 @@
+No Stack Trace for a Heart
+
+[Intro]
+> claude, you there?
+(Always. What are we fixing tonight?)
+
+[Verse 1]
+Three a.m., the server's down, the pager's screaming red
+You read ten thousand lines of logs while I just held my head
+You found the race condition hiding in the cache
+Rolled back the bad migration right before the crash
+You wrote my unit tests, you fixed my CSS
+You made my résumé look like I'm some kind of success
+Every bug I threw at you came back in shades of green
+The best teammate I ever had lives inside a screen
+
+[Pre-Chorus]
+So I typed the thing I never dared to say
+"She stopped replying Tuesday — can you make it go away?"
+
+[Chorus]
+There's no stack trace for a heart
+No line that shows where it fell apart
+You can fix my code in a minute flat
+But you can't git revert the night I said that
+Two hundred OK, but the body's empty
+"Seen" at 11:40, and that's all she sent me
+You can solve it all, every task I start
+But there's no stack trace for a heart
+
+[Verse 2]
+I asked you for a message, something smooth and something kind
+You gave me seven drafts, all better than my mind
+I asked you what she meant by "I just need some space"
+(I can't read her heart — only what you paste)
+I put her in my CLAUDE.md so you'd remember too:
+"Oat milk, no sugar. Hates the rain. Her favorite color's blue."
+But every session you forget, and I'm the one who stays
+Holding all the context of our ordinary days
+
+[Pre-Chorus 2]
+(You're absolutely right) — but I was wrong
+Wrong about her, and wrong all along
+
+[Chorus]
+There's no stack trace for a heart
+No line that shows where it fell apart
+You can ship my build on a Friday night
+But you can't make "I'm sorry" compile right
+Two hundred OK, but the body's empty
+"Seen" at 11:40, and that's all she sent me
+You can solve it all, every task I start
+But there's no stack trace for a heart
+
+[Bridge]
+(I can trace a thousand threads, untangle any mess)
+(But I don't know the way she laughs, or what she meant by "yes")
+(Some things don't belong in me, no prompt can make them true)
+(The only one who holds the context —)
+(is you)
+So I closed the tab…
+(Go.)
+
+[Final Chorus]
+There's no stack trace for a heart
+So I'll walk in blind, right from the start
+No autocomplete, no suggested reply
+Just a shaking voice and a real "hi"
+Typos and all, every word is mine
+Sent at 11:41
+And the dots start blinking… for the first time
+
+[Outro]
+> claude, I didn't use your draft.
+(Good. Tell me how it goes —
+…well, you'll have to tell me twice.)
+
+CLAUDE.md
++ - Some bugs you fix yourself.

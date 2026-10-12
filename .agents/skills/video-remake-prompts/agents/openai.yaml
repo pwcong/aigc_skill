@@ -1,0 +1,4 @@
+interface:
+  display_name: "原视频复刻提示词"
+  short_description: "先确认是否分割原视频，再生成参考片段或整片提示词与素材指南"
+  default_prompt: "使用 $video-remake-prompts，先与我确认是否需要分割原视频，再按选择生成逐段或整片提示词；需要分割时实际剪出参考 MP4，提示词开头集中用 @ 标签绑定角色、场景等素材别名，后文只用别名。"

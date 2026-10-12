@@ -1,0 +1,118 @@
+==================== 1. Title（歌名）====================
+
+No Stack Trace for a Heart
+
+
+==================== 2. Style of Music（风格，粘贴到 Style 框）====================
+
+emotional J-pop ballad, city pop influence, clear male tenor lead, soft airy female vocal in bridge, piano, warm synths, light drums, 90 BPM, anthemic chorus, key change final chorus, bittersweet, hopeful
+
+
+==================== 3. Exclude Styles（排除风格，可选）====================
+
+rap, heavy metal, autotune, screaming, EDM drop
+
+
+==================== 4. Lyrics（歌词，粘贴到 Lyrics 框，从下一行开始复制）====================
+
+[Intro]
+[Soft piano, keyboard typing sounds]
+
+[Verse 1]
+[Male Vocal]
+Three a.m., the server's down, the pager's screaming red
+You read ten thousand lines of logs while I just held my head
+You found the race condition hiding in the cache
+Rolled back the bad migration right before the crash
+You wrote my unit tests, you fixed my CSS
+You made my résumé look like I'm some kind of success
+Every bug I threw at you came back in shades of green
+The best teammate I ever had lives inside a screen
+
+[Pre-Chorus]
+[Male Vocal]
+So I typed the thing I never dared to say
+"She stopped replying Tuesday, can you make it go away?"
+
+[Chorus]
+[Male Vocal, Full Band]
+There's no stack trace for a heart
+No line that shows where it fell apart
+You can fix my code in a minute flat
+But you can't git re-vert the night I said that
+Two hundred okay, but the body's empty
+Seen at eleven-forty, and that's all she sent me
+You can solve it all, every task I start
+But there's no stack trace for a heart
+
+[Verse 2]
+[Male Vocal]
+I asked you for a message, something smooth and something kind
+You gave me seven drafts, all better than my mind
+I asked you what she meant by "I just need some space"
+[Female Vocal, Soft]
+(I can't read her heart, only what you paste)
+[Male Vocal]
+I put her in my Claude dot M-D so you'd remember too
+Oat milk, no sugar, hates the rain, her favorite color's blue
+But every session you forget, and I'm the one who stays
+Holding all the context of our ordinary days
+
+[Pre-Chorus]
+[Female Vocal, Soft]
+(You're absolutely right)
+[Male Vocal]
+But I was wrong
+Wrong about her, and wrong all along
+
+[Chorus]
+[Male Vocal, Full Band]
+There's no stack trace for a heart
+No line that shows where it fell apart
+You can ship my build on a Friday night
+But you can't make "I'm sorry" compile right
+Two hundred okay, but the body's empty
+Seen at eleven-forty, and that's all she sent me
+You can solve it all, every task I start
+But there's no stack trace for a heart
+
+[Bridge]
+[Female Vocal, Soft, Stripped Back Piano]
+I can trace a thousand threads, untangle any mess
+But I don't know the way she laughs, or what she meant by "yes"
+Some things don't belong in me, no prompt can make them true
+The only one who holds the context
+Is you
+
+[Male Vocal, Whispered]
+So I closed the tab
+[Female Vocal, Whispered]
+Go
+
+[Key Change]
+[Final Chorus]
+[Male Vocal, Powerful, Full Band]
+There's no stack trace for a heart
+So I'll walk in blind, right from the start
+No autocomplete, no suggested reply
+Just a shaking voice and a real "hi"
+Typos and all, every word is mine
+Sent at eleven-forty-one
+And the dots start blinking, for the first time
+
+[Outro]
+[Soft piano, fade out]
+
+[End]
+
+
+==================== 5. 使用说明 ====================
+
+- 模式：选 Custom（自定义）模式，分别粘贴 Title / Style / Lyrics。
+- 方括号 [ ] 内是给 Suno 的段落和演唱指令，不会被唱出来；圆括号 ( ) 内通常会被处理为和声或副唱。
+- 发音已改写：Claude dot M-D、eleven-forty、git re-vert、two hundred okay。
+- 终端台词（Intro 的 "claude, you there?"、Outro 的 CLAUDE.md 那几行）已移除，留到 MV 里用画面字幕表现。
+- 建议先生成 6–10 版挑旋律；桥段女声或最后一段副歌不理想时，用 Replace Section / Extend 单独重做。
+- 女声没出来：把 Bridge 的标签改成 [Duet] 或 [Female Singer]，或在 Style 里加 "male and female duet"。
+- 时长超过 4 分钟：删掉第二段 Pre-Chorus，或者缩短 Outro。
+- 公开发布前确认使用付费档生成，并查看 Suno 当前的商用条款。

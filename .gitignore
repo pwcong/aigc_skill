@@ -1,0 +1,6 @@
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+# per-project Dreamina job state (created next to jobs.json when running a pipeline)
+*.state.json

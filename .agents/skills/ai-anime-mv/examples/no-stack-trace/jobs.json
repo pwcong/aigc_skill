@@ -1,0 +1,746 @@
+{
+ "defaults": {
+  "image_model": "5.0",
+  "image_res": "2k",
+  "video_model": "seedance2.0_vip",
+  "video_res": "1080p"
+ },
+ "jobs": [
+  {
+   "name": "bg_night_desk",
+   "type": "text2image",
+   "ratio": "16:9",
+   "out": "public/images/raw",
+   "prompt": "A programmer's small apartment room at 3 a.m., wooden desk with a glowing monitor, mechanical keyboard, cold coffee mug, tangled cables, sticky notes, large window showing a blue night city skyline, no people, deep navy and teal tones with warm monitor glow, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges"
+  },
+  {
+   "name": "bg_rain_window",
+   "type": "text2image",
+   "ratio": "16:9",
+   "out": "public/images/raw",
+   "prompt": "Rain streaks on a window at night, blurred bokeh city lights in blue, a single warm desk lamp reflection, melancholic, no people, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges"
+  },
+  {
+   "name": "bg_dawn_wide",
+   "type": "text2image",
+   "ratio": "21:9",
+   "out": "public/images/raw",
+   "prompt": "Wide panoramic city at sunrise seen from a pedestrian bridge, sky shifting from deep blue to gold, soft clouds, no people, extra wide composition for horizontal panning, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges"
+  },
+  {
+   "name": "bg_city_night",
+   "type": "text2image",
+   "ratio": "16:9",
+   "out": "public/images/raw",
+   "prompt": "Night city skyline seen from a high-rise apartment, deep blue hour, countless warm lit windows, soft haze, distant bridge lights, calm and lonely, no people, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges"
+  },
+  {
+   "name": "bg_chorus_warm",
+   "type": "text2image",
+   "ratio": "16:9",
+   "out": "public/images/raw",
+   "prompt": "Abstract dark cosmic space with flowing ribbons of warm orange and amber light, soft glowing bokeh orbs, subtle light rays, dreamy and emotional, no people, no text, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges"
+  },
+  {
+   "name": "bg_chorus_red",
+   "type": "text2image",
+   "ratio": "16:9",
+   "out": "public/images/raw",
+   "prompt": "Abstract dark space with flowing ribbons of deep crimson and cold blue light colliding, glowing bokeh, dramatic light rays, intense and emotional, no people, no text, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges"
+  },
+  {
+   "name": "bg_bridge_sky",
+   "type": "text2image",
+   "ratio": "16:9",
+   "out": "public/images/raw",
+   "prompt": "Endless starry night sky above a calm sea of clouds, faint glowing orange particles drifting upward like fireflies, quiet melancholic atmosphere, vast and soft, no people, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges"
+  },
+  {
+   "name": "m_face_screen",
+   "type": "image2image",
+   "ratio": "16:9",
+   "out": "public/images/raw",
+   "prompt": "Close-up portrait of the young man from the reference (short black hair with soft bangs, grey-blue plaid long-sleeve shirt, dark navy cropped trousers, white sneakers), face lit by cold blue screen light from below, tired eyes, quiet sadness, dark night room background, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges",
+   "refs": [
+    "refs/male_lead_sheet.png"
+   ]
+  },
+  {
+   "name": "kf_m_desk_red",
+   "type": "image2image",
+   "refs": [
+    "refs/male_lead_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the young man from the reference (short black hair with soft bangs, grey-blue plaid long-sleeve shirt, dark navy trousers) sitting at his desk at 3 a.m., singing emotionally with his mouth open, face clearly visible in three-quarter view, medium close-up, red alert light from the monitor flashing on his face, dark room, city window behind, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_m_screen_blue",
+   "type": "image2image",
+   "refs": [
+    "refs/male_lead_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the young man from the reference (short black hair with soft bangs, grey-blue plaid long-sleeve shirt, dark navy trousers) in a dark room, singing emotionally with his mouth open, face clearly visible in three-quarter view, medium close-up, face lit by cold blue monitor light, lonely, eyes looking slightly down, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_m_rain_window",
+   "type": "image2image",
+   "refs": [
+    "refs/male_lead_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the young man from the reference (short black hair with soft bangs, grey-blue plaid long-sleeve shirt, dark navy trousers) standing by a rainy window at night, singing emotionally with his mouth open, face clearly visible in three-quarter view, medium close-up, raindrops on glass, blurred blue city bokeh, soft warm lamp light on one side, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_m_rooftop_storm",
+   "type": "image2image",
+   "refs": [
+    "refs/male_lead_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the young man from the reference (short black hair with soft bangs, grey-blue plaid long-sleeve shirt, dark navy trousers) on a rooftop at night in strong wind, singing emotionally with his mouth open, face clearly visible in three-quarter view, medium close-up, passionate expression, hair and shirt blowing, dramatic crimson and electric blue light streaks in the sky behind, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_m_dawn",
+   "type": "image2image",
+   "refs": [
+    "refs/male_lead_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the young man from the reference (short black hair with soft bangs, grey-blue plaid long-sleeve shirt, dark navy trousers) walking in a city street at sunrise, singing emotionally with his mouth open, face clearly visible in three-quarter view, medium close-up, hopeful expression, golden sunlight on his face, lens flare, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_c_clipboard",
+   "type": "image2image",
+   "refs": [
+    "refs/claude_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the orange-haired girl from the reference (very long orange hair, orange sunflower hair ornament with black ribbon, white caped dress with black corset and gold sunflower embroidery) holding a clipboard to her chest, singing softly with her mouth open, face clearly visible in three-quarter view, medium close-up, gentle apologetic expression, soft orange glow, dreamy digital space with floating faint text particles behind, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_c_smile",
+   "type": "image2image",
+   "refs": [
+    "refs/claude_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the orange-haired girl from the reference (very long orange hair, orange sunflower hair ornament with black ribbon, white caped dress with black corset and gold sunflower embroidery), singing softly with her mouth open, face clearly visible in three-quarter view, medium close-up, bright cheerful smile, eyes open, warm orange light, soft bokeh background, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_c_clouds",
+   "type": "image2image",
+   "refs": [
+    "refs/claude_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the orange-haired girl from the reference (very long orange hair, orange sunflower hair ornament with black ribbon, white caped dress with black corset and gold sunflower embroidery) standing above an endless sea of clouds under a starry night sky, singing softly with her mouth open, face clearly visible in three-quarter view, medium close-up, melancholic, glowing orange particles drifting around her, hair flowing, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_c_close_tear",
+   "type": "image2image",
+   "refs": [
+    "refs/claude_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "Close-up of the orange-haired girl from the reference (very long orange hair, orange sunflower hair ornament with black ribbon, white caped dress with black corset and gold sunflower embroidery), singing softly with her mouth open, face clearly visible in three-quarter view, medium close-up, a single tear on her cheek, bittersweet smile, starry night background, soft orange rim light, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_v_m_headinhands",
+   "type": "image2image",
+   "refs": [
+    "refs/male_lead_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the young man from the reference (short black hair with soft bangs, grey-blue plaid long-sleeve shirt, dark navy trousers) sitting at a desk at 3 a.m. with his head in his hands, red alert glowing on the monitor, dark room, coffee mug, city window, wide shot, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_v_c_holo_logs",
+   "type": "image2image",
+   "refs": [
+    "refs/claude_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the orange-haired girl from the reference (very long orange hair, orange sunflower hair ornament with black ribbon, white caped dress with black corset and gold sunflower embroidery) standing among floating holographic panels of scrolling log text, holding a glowing magnifying glass, curious smile, dark blue digital space, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_v_c_rewind",
+   "type": "image2image",
+   "refs": [
+    "refs/claude_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the orange-haired girl from the reference (very long orange hair, orange sunflower hair ornament with black ribbon, white caped dress with black corset and gold sunflower embroidery) raising one hand, fragments of glowing orange code swirling around her and reassembling, confident expression, dark digital space, full body, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_v_screen_glass",
+   "type": "image2image",
+   "refs": [
+    "refs/male_lead_sheet.png",
+    "refs/claude_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "Over-the-shoulder shot: the young man from the reference (short black hair with soft bangs, grey-blue plaid long-sleeve shirt, dark navy trousers) seen from behind sitting in front of a large glowing monitor at night; inside the screen the orange-haired girl from the reference (very long orange hair, orange sunflower hair ornament with black ribbon, white caped dress with black corset and gold sunflower embroidery) smiles and presses her palm against the glass, warm orange light from the screen on his silhouette, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_v_m_typing",
+   "type": "image2image",
+   "refs": [
+    "refs/male_lead_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "Close-up of the young man from the reference (short black hair with soft bangs, grey-blue plaid long-sleeve shirt, dark navy trousers)'s hands typing slowly on a mechanical keyboard at night, monitor glow, hesitant, shallow depth of field, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_v_m_phone_seen",
+   "type": "image2image",
+   "refs": [
+    "refs/male_lead_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the young man from the reference (short black hair with soft bangs, grey-blue plaid long-sleeve shirt, dark navy trousers) standing alone on a rooftop at night looking down at his glowing phone, wind in his hair, city lights below, lonely, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_v_c_drafts",
+   "type": "image2image",
+   "refs": [
+    "refs/claude_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the orange-haired girl from the reference (very long orange hair, orange sunflower hair ornament with black ribbon, white caped dress with black corset and gold sunflower embroidery) surrounded by floating glowing paper letters and message drafts in the air, writing gesture with one hand, soft orange light, rainy blue city outside a window, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_v_c_dissolve",
+   "type": "image2image",
+   "refs": [
+    "refs/claude_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the orange-haired girl from the reference (very long orange hair, orange sunflower hair ornament with black ribbon, white caped dress with black corset and gold sunflower embroidery) beginning to dissolve into glowing orange light particles from the edges, calm sad smile, dark background, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_v_backtoback",
+   "type": "image2image",
+   "refs": [
+    "refs/male_lead_sheet.png",
+    "refs/claude_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the young man from the reference (short black hair with soft bangs, grey-blue plaid long-sleeve shirt, dark navy trousers) and the orange-haired girl from the reference (very long orange hair, orange sunflower hair ornament with black ribbon, white caped dress with black corset and gold sunflower embroidery) standing back to back in a dark space, ribbons of crimson and blue light swirling around them, dramatic, full body, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_v_c_turn",
+   "type": "image2image",
+   "refs": [
+    "refs/male_lead_sheet.png",
+    "refs/claude_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the orange-haired girl from the reference (very long orange hair, orange sunflower hair ornament with black ribbon, white caped dress with black corset and gold sunflower embroidery) on the right turning back toward the young man from the reference (short black hair with soft bangs, grey-blue plaid long-sleeve shirt, dark navy trousers) on the left, she gently gestures him forward, stars and orange particles between them, above a sea of clouds, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_v_m_run_dawn",
+   "type": "image2image",
+   "refs": [
+    "refs/male_lead_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the young man from the reference (short black hair with soft bangs, grey-blue plaid long-sleeve shirt, dark navy trousers) running out of an apartment entrance into a city street at sunrise, golden light, long shadows, determined, full body side view, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_v_m_smile_phone",
+   "type": "image2image",
+   "refs": [
+    "refs/male_lead_sheet.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "the young man from the reference (short black hair with soft bangs, grey-blue plaid long-sleeve shirt, dark navy trousers) on a rooftop at sunrise looking at his phone with a small surprised smile, golden rim light, city skyline behind, the character is lit by the scene lighting and naturally integrated into the environment, anime illustration, cel-shaded, cinematic lighting, highly detailed background art, soft glow, cinematic anime color palette with deep blues and warm oranges, 16:9, no text, no watermark"
+  },
+  {
+   "name": "kf_m_desk_red_closed",
+   "type": "image2image",
+   "refs": [
+    "public/images/keyframes/kf_m_desk_red.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "Edit only the mouth: mouth gently closed, lips together. Keep everything else in the image exactly identical: same pose, same hair, same lighting, same background, same framing and composition, pixel-aligned."
+  },
+  {
+   "name": "kf_m_screen_blue_closed",
+   "type": "image2image",
+   "refs": [
+    "public/images/keyframes/kf_m_screen_blue.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "Edit only the mouth: mouth gently closed, lips together. Keep everything else in the image exactly identical: same pose, same hair, same lighting, same background, same framing and composition, pixel-aligned."
+  },
+  {
+   "name": "kf_m_rain_window_closed",
+   "type": "image2image",
+   "refs": [
+    "public/images/keyframes/kf_m_rain_window.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "Edit only the mouth: mouth gently closed, lips together. Keep everything else in the image exactly identical: same pose, same hair, same lighting, same background, same framing and composition, pixel-aligned."
+  },
+  {
+   "name": "kf_m_rooftop_storm_closed",
+   "type": "image2image",
+   "refs": [
+    "public/images/keyframes/kf_m_rooftop_storm.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "Edit only the mouth: mouth gently closed, lips together. Keep everything else in the image exactly identical: same pose, same hair, same lighting, same background, same framing and composition, pixel-aligned."
+  },
+  {
+   "name": "kf_m_dawn_closed",
+   "type": "image2image",
+   "refs": [
+    "public/images/keyframes/kf_m_dawn.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "Edit only the mouth: mouth gently closed, lips together. Keep everything else in the image exactly identical: same pose, same hair, same lighting, same background, same framing and composition, pixel-aligned."
+  },
+  {
+   "name": "kf_c_clipboard_closed",
+   "type": "image2image",
+   "refs": [
+    "public/images/keyframes/kf_c_clipboard.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "Edit only the mouth: mouth gently closed, lips together. Keep everything else in the image exactly identical: same pose, same hair, same lighting, same background, same framing and composition, pixel-aligned."
+  },
+  {
+   "name": "kf_c_smile_closed",
+   "type": "image2image",
+   "refs": [
+    "public/images/keyframes/kf_c_smile.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "Edit only the mouth: mouth gently closed, lips together. Keep everything else in the image exactly identical: same pose, same hair, same lighting, same background, same framing and composition, pixel-aligned."
+  },
+  {
+   "name": "kf_c_clouds_closed",
+   "type": "image2image",
+   "refs": [
+    "public/images/keyframes/kf_c_clouds.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "Edit only the mouth: mouth gently closed, lips together. Keep everything else in the image exactly identical: same pose, same hair, same lighting, same background, same framing and composition, pixel-aligned."
+  },
+  {
+   "name": "kf_c_close_tear_closed",
+   "type": "image2image",
+   "refs": [
+    "public/images/keyframes/kf_c_close_tear.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "Edit only the mouth: mouth gently closed, lips together. Keep everything else in the image exactly identical: same pose, same hair, same lighting, same background, same framing and composition, pixel-aligned."
+  },
+  {
+   "name": "kf_test_sing_m_closed",
+   "type": "image2image",
+   "refs": [
+    "public/images/keyframes/kf_test_sing_m.png"
+   ],
+   "ratio": "16:9",
+   "out": "public/images/keyframes",
+   "prompt": "Edit only the mouth: mouth gently closed, lips together. Keep everything else in the image exactly identical: same pose, same hair, same lighting, same background, same framing and composition, pixel-aligned."
+  },
+  {
+   "name": "v_intro_desk",
+   "type": "image2video",
+   "image": "public/images/raw/bg_night_desk.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "slow cinematic push-in toward the glowing monitor, steam rising from the coffee mug, city lights twinkling outside the window"
+  },
+  {
+   "name": "v_m_headinhands",
+   "type": "image2video",
+   "image": "public/images/keyframes/kf_v_m_headinhands.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "he grips his hair in frustration, red alert light pulses on the walls, slight handheld camera"
+  },
+  {
+   "name": "v_c_holo_logs",
+   "type": "image2video",
+   "image": "public/images/keyframes/kf_v_c_holo_logs.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "holographic log panels scroll upward, she moves the magnifying glass and leans in, hair sways, slow orbit camera"
+  },
+  {
+   "name": "v_c_rewind",
+   "type": "image2video",
+   "image": "public/images/keyframes/kf_v_c_rewind.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "code fragments swirl around her and snap back into place, her hair and dress flow, camera slowly pushes in"
+  },
+  {
+   "name": "v_screen_glass",
+   "type": "image2video",
+   "image": "public/images/keyframes/kf_v_screen_glass.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "she smiles and taps the glass gently, light ripples across the screen, he leans slightly closer, slow push-in"
+  },
+  {
+   "name": "v_m_typing",
+   "type": "image2video",
+   "image": "public/images/keyframes/kf_v_m_typing.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "fingers type a few letters, pause, hesitate, then continue, screen light flickers softly"
+  },
+  {
+   "name": "v_m_phone_seen",
+   "type": "image2video",
+   "image": "public/images/keyframes/kf_v_m_phone_seen.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "wind blows his hair and shirt, the phone screen glows, he lowers the phone slowly, camera slowly pulls back"
+  },
+  {
+   "name": "v_c_drafts",
+   "type": "image2video",
+   "image": "public/images/keyframes/kf_v_c_drafts.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "glowing paper drafts float and rotate around her, she gestures and they rearrange, rain streaks outside"
+  },
+  {
+   "name": "v_c_dissolve",
+   "type": "image2video",
+   "image": "public/images/keyframes/kf_v_c_dissolve.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "she slowly dissolves into glowing orange particles that drift upward, she keeps a calm smile until she fades"
+  },
+  {
+   "name": "v_backtoback",
+   "type": "image2video",
+   "image": "public/images/keyframes/kf_v_backtoback.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "light ribbons swirl faster around them, their hair and clothes blow, slow orbiting camera"
+  },
+  {
+   "name": "v_c_turn",
+   "type": "image2video",
+   "image": "public/images/keyframes/kf_v_c_turn.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "she turns toward him and gently gestures forward, orange particles flow from her to him, slow push-in"
+  },
+  {
+   "name": "v_m_tear",
+   "type": "image2video",
+   "image": "public/images/raw/m_face_screen.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "a single tear rolls down his cheek, he slowly raises his eyes, blue screen light flickers"
+  },
+  {
+   "name": "v_m_run_dawn",
+   "type": "image2video",
+   "image": "public/images/keyframes/kf_v_m_run_dawn.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "he runs forward into the sunrise, camera tracks alongside him, sunlight flares between buildings"
+  },
+  {
+   "name": "v_m_smile_phone",
+   "type": "image2video",
+   "image": "public/images/keyframes/kf_v_m_smile_phone.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "he looks at the phone and a warm smile spreads across his face, wind moves his hair, sun rises behind him"
+  },
+  {
+   "name": "v_dawn_city",
+   "type": "image2video",
+   "image": "public/images/raw/bg_dawn_wide.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "clouds drift across the sunrise sky, light slowly brightens over the city, gentle pan right"
+  },
+  {
+   "name": "v_rain_window",
+   "type": "image2video",
+   "image": "public/images/raw/bg_rain_window.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "raindrops trickle down the glass, city bokeh lights shimmer and blink"
+  },
+  {
+   "name": "v_chorus_warm",
+   "type": "image2video",
+   "image": "public/images/raw/bg_chorus_warm.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "ribbons of orange light flow and twist, glowing orbs drift, slow camera push forward"
+  },
+  {
+   "name": "v_chorus_red",
+   "type": "image2video",
+   "image": "public/images/raw/bg_chorus_red.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "crimson and blue light ribbons swirl and collide, sparks burst, camera slowly rotates"
+  },
+  {
+   "name": "v_bridge_sky",
+   "type": "image2video",
+   "image": "public/images/raw/bg_bridge_sky.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "clouds roll slowly below, orange particles drift upward, stars twinkle"
+  },
+  {
+   "name": "v_city_night",
+   "type": "image2video",
+   "image": "public/images/raw/bg_city_night.png",
+   "duration": 5,
+   "out": "public/clips",
+   "prompt": "city lights twinkle, cars move on the distant bridge, slight camera drift"
+  },
+  {
+   "name": "ls_01_desk_red",
+   "type": "lipsync",
+   "image": "public/images/keyframes/kf_m_desk_red_closed.png",
+   "audio": {
+    "src": "public/audio/vocals.wav",
+    "start": 8.62,
+    "end": 11.94
+   },
+   "out": "public/clips",
+   "prompt": "The character in the image sings the vocals in the audio with accurate, expressive lip sync. Natural facial expression, occasional blinking, subtle head and shoulder movement, hair moving gently, slow cinematic camera push-in. Keep the character design, outfit, lighting and background exactly consistent with the image. No text."
+  },
+  {
+   "name": "ls_02_screen_blue",
+   "type": "lipsync",
+   "image": "public/images/keyframes/kf_m_screen_blue_closed.png",
+   "audio": {
+    "src": "public/audio/vocals.wav",
+    "start": 40.14,
+    "end": 46.4
+   },
+   "out": "public/clips",
+   "prompt": "The character in the image sings the vocals in the audio with accurate, expressive lip sync. Natural facial expression, occasional blinking, subtle head and shoulder movement, hair moving gently, slow cinematic camera push-in. Keep the character design, outfit, lighting and background exactly consistent with the image. No text."
+  },
+  {
+   "name": "ls_03_rooftop",
+   "type": "lipsync",
+   "image": "public/images/keyframes/kf_test_sing_m_closed.png",
+   "audio": {
+    "src": "public/audio/vocals.wav",
+    "start": 46.4,
+    "end": 50.1
+   },
+   "out": "public/clips",
+   "prompt": "The character in the image sings the vocals in the audio with accurate, expressive lip sync. Natural facial expression, occasional blinking, subtle head and shoulder movement, hair moving gently, slow cinematic camera push-in. Keep the character design, outfit, lighting and background exactly consistent with the image. No text."
+  },
+  {
+   "name": "ls_04_rooftop",
+   "type": "lipsync",
+   "image": "public/images/keyframes/kf_test_sing_m_closed.png",
+   "audio": {
+    "src": "public/audio/vocals.wav",
+    "start": 60.9,
+    "end": 64.26
+   },
+   "out": "public/clips",
+   "prompt": "The character in the image sings the vocals in the audio with accurate, expressive lip sync. Natural facial expression, occasional blinking, subtle head and shoulder movement, hair moving gently, slow cinematic camera push-in. Keep the character design, outfit, lighting and background exactly consistent with the image. No text."
+  },
+  {
+   "name": "ls_05_rooftop",
+   "type": "lipsync",
+   "image": "public/images/keyframes/kf_test_sing_m_closed.png",
+   "audio": {
+    "src": "public/audio/vocals.wav",
+    "start": 71.36,
+    "end": 75.6
+   },
+   "out": "public/clips",
+   "prompt": "The character in the image sings the vocals in the audio with accurate, expressive lip sync. Natural facial expression, occasional blinking, subtle head and shoulder movement, hair moving gently, slow cinematic camera push-in. Keep the character design, outfit, lighting and background exactly consistent with the image. No text."
+  },
+  {
+   "name": "ls_06_rain",
+   "type": "lipsync",
+   "image": "public/images/keyframes/kf_m_rain_window_closed.png",
+   "audio": {
+    "src": "public/audio/vocals.wav",
+    "start": 86.76,
+    "end": 90.04
+   },
+   "out": "public/clips",
+   "prompt": "The character in the image sings the vocals in the audio with accurate, expressive lip sync. Natural facial expression, occasional blinking, subtle head and shoulder movement, hair moving gently, slow cinematic camera push-in. Keep the character design, outfit, lighting and background exactly consistent with the image. No text."
+  },
+  {
+   "name": "ls_07_c_clipboard",
+   "type": "lipsync",
+   "image": "public/images/keyframes/kf_c_clipboard_closed.png",
+   "audio": {
+    "src": "public/audio/vocals.wav",
+    "start": 90.04,
+    "end": 93.24
+   },
+   "out": "public/clips",
+   "prompt": "The character in the image sings the vocals in the audio with accurate, expressive lip sync. Natural facial expression, occasional blinking, subtle head and shoulder movement, hair moving gently, slow cinematic camera push-in. Keep the character design, outfit, lighting and background exactly consistent with the image. No text."
+  },
+  {
+   "name": "ls_08_rain",
+   "type": "lipsync",
+   "image": "public/images/keyframes/kf_m_rain_window_closed.png",
+   "audio": {
+    "src": "public/audio/vocals.wav",
+    "start": 104.08,
+    "end": 107.74
+   },
+   "out": "public/clips",
+   "prompt": "The character in the image sings the vocals in the audio with accurate, expressive lip sync. Natural facial expression, occasional blinking, subtle head and shoulder movement, hair moving gently, slow cinematic camera push-in. Keep the character design, outfit, lighting and background exactly consistent with the image. No text."
+  },
+  {
+   "name": "ls_09_c_smile",
+   "type": "lipsync",
+   "image": "public/images/keyframes/kf_c_smile_closed.png",
+   "audio": {
+    "src": "public/audio/vocals.wav",
+    "start": 107.74,
+    "end": 109.96
+   },
+   "out": "public/clips",
+   "prompt": "The character in the image sings the vocals in the audio with accurate, expressive lip sync. Natural facial expression, occasional blinking, subtle head and shoulder movement, hair moving gently, slow cinematic camera push-in. Keep the character design, outfit, lighting and background exactly consistent with the image. No text."
+  },
+  {
+   "name": "ls_10_storm",
+   "type": "lipsync",
+   "image": "public/images/keyframes/kf_m_rooftop_storm_closed.png",
+   "audio": {
+    "src": "public/audio/vocals.wav",
+    "start": 114.12,
+    "end": 117.14
+   },
+   "out": "public/clips",
+   "prompt": "The character in the image sings the vocals in the audio with accurate, expressive lip sync. Natural facial expression, occasional blinking, subtle head and shoulder movement, hair moving gently, slow cinematic camera push-in. Keep the character design, outfit, lighting and background exactly consistent with the image. No text."
+  },
+  {
+   "name": "ls_11_storm",
+   "type": "lipsync",
+   "image": "public/images/keyframes/kf_m_rooftop_storm_closed.png",
+   "audio": {
+    "src": "public/audio/vocals.wav",
+    "start": 127.0,
+    "end": 129.52
+   },
+   "out": "public/clips",
+   "prompt": "The character in the image sings the vocals in the audio with accurate, expressive lip sync. Natural facial expression, occasional blinking, subtle head and shoulder movement, hair moving gently, slow cinematic camera push-in. Keep the character design, outfit, lighting and background exactly consistent with the image. No text."
+  },
+  {
+   "name": "ls_12_storm",
+   "type": "lipsync",
+   "image": "public/images/keyframes/kf_m_rooftop_storm_closed.png",
+   "audio": {
+    "src": "public/audio/vocals.wav",
+    "start": 138.42,
+    "end": 143.88
+   },
+   "out": "public/clips",
+   "prompt": "The character in the image sings the vocals in the audio with accurate, expressive lip sync. Natural facial expression, occasional blinking, subtle head and shoulder movement, hair moving gently, slow cinematic camera push-in. Keep the character design, outfit, lighting and background exactly consistent with the image. No text."
+  },
+  {
+   "name": "ls_13_c_clouds",
+   "type": "lipsync",
+   "image": "public/images/keyframes/kf_c_clouds_closed.png",
+   "audio": {
+    "src": "public/audio/vocals.wav",
+    "start": 143.88,
+    "end": 149.06
+   },
+   "out": "public/clips",
+   "prompt": "The character in the image sings the vocals in the audio with accurate, expressive lip sync. Natural facial expression, occasional blinking, subtle head and shoulder movement, hair moving gently, slow cinematic camera push-in. Keep the character design, outfit, lighting and background exactly consistent with the image. No text."
+  },
+  {
+   "name": "ls_14_c_clouds",
+   "type": "lipsync",
+   "image": "public/images/keyframes/kf_c_clouds_closed.png",
+   "audio": {
+    "src": "public/audio/vocals.wav",
+    "start": 152.8,
+    "end": 156.5
+   },
+   "out": "public/clips",
+   "prompt": "The character in the image sings the vocals in the audio with accurate, expressive lip sync. Natural facial expression, occasional blinking, subtle head and shoulder movement, hair moving gently, slow cinematic camera push-in. Keep the character design, outfit, lighting and background exactly consistent with the image. No text."
+  },
+  {
+   "name": "ls_15_c_tear",
+   "type": "lipsync",
+   "image": "public/images/keyframes/kf_c_close_tear_closed.png",
+   "audio": {
+    "src": "public/audio/vocals.wav",
+    "start": 156.5,
+    "end": 160.6
+   },
+   "out": "public/clips",
+   "prompt": "The character in the image sings the vocals in the audio with accurate, expressive lip sync. Natural facial expression, occasional blinking, subtle head and shoulder movement, hair moving gently, slow cinematic camera push-in. Keep the character design, outfit, lighting and background exactly consistent with the image. No text."
+  },
+  {
+   "name": "ls_16_dawn",
+   "type": "lipsync",
+   "image": "public/images/keyframes/kf_m_dawn_closed.png",
+   "audio": {
+    "src": "public/audio/vocals.wav",
+    "start": 175.3,
+    "end": 178.94
+   },
+   "out": "public/clips",
+   "prompt": "The character in the image sings the vocals in the audio with accurate, expressive lip sync. Natural facial expression, occasional blinking, subtle head and shoulder movement, hair moving gently, slow cinematic camera push-in. Keep the character design, outfit, lighting and background exactly consistent with the image. No text."
+  },
+  {
+   "name": "ls_17_dawn",
+   "type": "lipsync",
+   "image": "public/images/keyframes/kf_m_dawn_closed.png",
+   "audio": {
+    "src": "public/audio/vocals.wav",
+    "start": 182.2,
+    "end": 186.14
+   },
+   "out": "public/clips",
+   "prompt": "The character in the image sings the vocals in the audio with accurate, expressive lip sync. Natural facial expression, occasional blinking, subtle head and shoulder movement, hair moving gently, slow cinematic camera push-in. Keep the character design, outfit, lighting and background exactly consistent with the image. No text."
+  }
+ ]
+}

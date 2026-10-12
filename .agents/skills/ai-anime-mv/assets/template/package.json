@@ -1,0 +1,22 @@
+{
+  "name": "ai-anime-mv",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts MV out/mv.mp4 --codec=h264 --crf=18 --audio-bitrate=320k",
+    "preview": "remotion render src/index.ts MV out/preview_half.mp4 --scale=0.5",
+    "still": "remotion still src/index.ts MV",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.534",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.534"
+  },
+  "devDependencies": {
+    "@types/react": "^18",
+    "typescript": "^5"
+  }
+}
